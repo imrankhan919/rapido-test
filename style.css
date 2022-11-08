@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+nav{
+    padding: 5px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 70px;
+}
+
+.navlinks{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 30px 30px 5px 30px;
+}
+
+.responsive-links{
+    display: none;
+}
+
+.hero-section{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.text-section{
+    width: 50%;
+}
+
+.text-section h1{
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.text-section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.yellow-btn{
+    padding: 15px 25px;
+    border: none;
+    background-color: #F9C935;
+    border-radius: 30px 30px 30px 5px ;
+    margin: 5px;
+}
+
+.black-btn{
+    padding: 15px 25px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 30px 30px 5px 30px ;
+    margin: 5px;
+}
+
+.image-section{
+    width: 50%;
+}
+
+.yellow-shape{
+    height: 800px;
+    width: 600px;
+    background-color: #F9C935;
+    border-radius: 367px;
+    transform: rotate(40deg);
+    position: absolute;
+    z-index: -1;
+    top: -200px;
+    overflow: hidden;
+}
+
+.image-section img{
+    position: absolute;
+    top: 264px;
+    right: -169px;
+    transform: rotate(-37deg);
+
+}
+
+
+@media(max-width:768px){
+    
+    .navlinks{
+        display: none;
+    }
+    
+    .responsive-links p{
+        font-size: 14px;
+    }
+    
+    .responsive-links{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}
